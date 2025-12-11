@@ -11,8 +11,9 @@ const DashboardLayout = () => {
   return (
     <UserOnly>
       <Tabs
-        screenOptions={{ headerShown: false, tabBarStyle:{
-            backgroundColor: theme.navBackground,
+        screenOptions={{ headerShown: false,
+         tabBarStyle:{
+          backgroundColor: theme.navBackground,
         },
         animation: 'none',
         tabBarActiveTintColor: theme.iconColorFocused,

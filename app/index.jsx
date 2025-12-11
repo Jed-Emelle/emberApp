@@ -7,7 +7,7 @@ import ThemedView from "../components/ThemedView"
 import ThemedText from "../components/ThemedText"
 import Spacer from "../components/Spacer"
 
-
+ 
 const HomePage = () => {
   return (
     <ThemedView style={ styles.container }>
@@ -19,7 +19,7 @@ const HomePage = () => {
       <Spacer height={10}/>
 
       <Spacer />
-
+      
       <Link 
         style={ styles.link } 
         href='/login'>
